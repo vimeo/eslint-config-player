@@ -1,0 +1,14 @@
+{
+  "name": "@vimeo/eslint-config-player",
+  "version": "1.0.0",
+  "description": "Default ESLint configuration for Player projects.",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Brad Dougherty <brad@vimeo.com>",
+  "dependencies": {
+    "strip-json-comments": "^1.0.2"
+  }
+}
