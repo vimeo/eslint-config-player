@@ -1,5 +1,7 @@
 # Player ESLint Config
 
+> Default ESLint configuration for Player projects.
+
 ## How to use it
 
 First, install the npm package:
