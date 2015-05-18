@@ -111,6 +111,7 @@
         "max-statements": [0, 10],
         "new-cap": 2,
         "new-parens": 2,
+        "object-shorthand": [2, "always"],
         "operator-assignment": [2, "always"],
         "quotes": [2, "single", "avoid-escape"],
         "radix": 2,
