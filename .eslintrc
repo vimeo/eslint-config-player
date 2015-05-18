@@ -11,6 +11,14 @@
         "console": false
     },
     "rules": {
+        // deprecated
+        "global-strict": 0,
+        "no-extra-strict": 0,
+        "no-space-before-semi": 0,
+        "space-after-function-name": 0,
+        "space-before-function-parentheses": 0,
+        "space-unary-word-ops": 0,
+
         "no-alert": 2,
         "no-array-constructor": 2,
         "no-caller": 2,
@@ -35,7 +43,6 @@
         "no-extra-bind": 2,
         "no-extra-boolean-cast": 2,
         "no-extra-semi": 2,
-        "no-extra-strict": 2,
         "no-fallthrough": 2,
         "no-floating-decimal": 2,
         "no-func-assign": 2,
@@ -105,7 +112,6 @@
         "dot-notation": [2, { "allowKeywords": true }],
         "eol-last": 2,
         "eqeqeq": 2,
-        "global-strict": [2, "never"],
         "indent": [2, 4, { "indentSwitchCase": true }],
         "key-spacing": [2, { "beforeColon": false, "afterColon": true }],
         "max-nested-callbacks": [1, 2],
