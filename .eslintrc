@@ -99,6 +99,7 @@
         "no-with": 2,
         "no-wrap-func": 2,
 
+        "accessor-pairs": [2, { "setWithoutGet": true }],
         // "array-literal-spacing": [2, "never"],
         "brace-style": [2, "stroustrup"],
         "camelcase": 2,
@@ -119,6 +120,7 @@
         "max-statements": [0, 10],
         "new-cap": 2,
         "new-parens": 2,
+        "object-curly-spacing": [2, "always"],
         "object-shorthand": [2, "always"],
         "operator-assignment": [2, "always"],
         "quotes": [2, "single", "avoid-escape"],
@@ -128,7 +130,6 @@
         "space-after-keywords": [2, "always"],
         "space-before-blocks": [2, "always"],
         "space-before-function-paren": [2, "never"],
-        // "space-in-curly-braces": [2, "always"],
         "space-in-parens": [2, "never"],
         "space-infix-ops": 2,
         "space-return-throw-case": 2,
