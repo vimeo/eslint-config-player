@@ -2,6 +2,10 @@
   "name": "@vimeo/eslint-config-player",
   "version": "2.1.0",
   "description": "Default ESLint configuration for Player projects.",
+  "license": "MIT",
+  "contributors": [
+    "Brad Dougherty <brad@vimeo.com> (https://brad.is)"
+  ],
   "main": "index.js",
   "repository": "vimeo/eslint-config-player",
   "bugs": "https://github.com/vimeo/eslint-config-player/issues",
@@ -9,11 +13,7 @@
     "eslint",
     "eslintconfig"
   ],
-  "author": "Brad Dougherty <brad@vimeo.com>",
-  "dependencies": {
-    "strip-json-comments": "^1.0.2"
-  },
   "peerDependencies": {
-    "eslint": ">=1.2.0"
+    "eslint": ">=2.0.0"
   }
 }

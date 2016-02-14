@@ -10,11 +10,19 @@ First, install the npm package:
 npm install @vimeo/eslint-config-player
 ```
 
-Then add the `extends` option to the `.eslintrc` file:
+Then add the `extends` option to the `.eslintrc.json` file:
 
 ```json
 {
     "extends": "@vimeo/eslint-config-player"
+}
+```
+
+If the project is using ES6, extend from the ES6 version instead:
+
+```json
+{
+    "extends": "@vimeo/eslint-config-player/es6"
 }
 ```
 
