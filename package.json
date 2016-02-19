@@ -1,6 +1,6 @@
 {
   "name": "@vimeo/eslint-config-player",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "Default ESLint configuration for Player projects.",
   "license": "MIT",
   "contributors": [
