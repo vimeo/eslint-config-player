@@ -1,4 +1,7 @@
 {
+    "plugins": [
+        "promise"
+    ],
     "env": {
         "browser": true
     },
@@ -134,6 +137,10 @@
         }],
         "valid-typeof": 2,
         "wrap-iife": [2, "outside"],
-        "yoda": [2, "never"]
+        "yoda": [2, "never"],
+
+        "promise/param-names": 2,
+        "promise/always-return": 2,
+        "promise/catch-or-return": 2
     }
 }
