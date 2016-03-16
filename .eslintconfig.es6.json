@@ -1,5 +1,5 @@
 {
-    "extends": "vimeo-player",
+    "extends": "@vimeo/eslint-config-player",
     "env": {
         "es6": true
     },
