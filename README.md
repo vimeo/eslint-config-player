@@ -1,4 +1,4 @@
-# Player ESLint Config
+# Player ESLint Config [![npm version](https://img.shields.io/npm/v/@vimeo/eslint-config-player.svg?maxAge=2592000)](https://www.npmjs.com/package/@vimeo/eslint-config-player)
 
 > Default ESLint configuration for Player projects.
 
