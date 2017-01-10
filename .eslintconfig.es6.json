@@ -8,25 +8,28 @@
         "sourceType": "module"
     },
     "rules": {
-        "no-class-assign": 2,
-        "no-confusing-arrow": 2,
-        "no-const-assign": 2,
-        "no-dupe-class-members": 2,
-        "no-new-symbol": 2,
-        "no-restricted-syntax": [2, "YieldExpression"],
-        "no-this-before-super": 2,
-        "no-useless-constructor": 2,
-        "no-var": 2,
+        "no-restricted-syntax": ["error", "YieldExpression"],
 
-        "arrow-parens": 2,
-        "arrow-spacing": [2, { "before": true, "after": true }],
-        "constructor-super": 2,
-        "object-shorthand": [2, "always"],
-        "prefer-arrow-callback": 2,
-        "prefer-const": 2,
-        "prefer-rest-params": 2,
-        "prefer-spread": 2,
-        "prefer-template": 1,
-        "template-curly-spacing": [2, "never"]
+        "arrow-parens": "error",
+        "arrow-spacing": ["error", {
+            "before": true,
+            "after": true
+        }],
+        "constructor-super": "error",
+        "no-class-assign": "error",
+        "no-confusing-arrow": "error",
+        "no-const-assign": "error",
+        "no-dupe-class-members": "error",
+        "no-new-symbol": "error",
+        "no-this-before-super": "error",
+        "no-useless-constructor": "error",
+        "no-var": "error",
+        "object-shorthand": ["error", "always"],
+        "prefer-arrow-callback": "error",
+        "prefer-const": "error",
+        "prefer-rest-params": "error",
+        "prefer-spread": "error",
+        "prefer-template": "warn",
+        "template-curly-spacing": ["error", "never"]
     }
 }
