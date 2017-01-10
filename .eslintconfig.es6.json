@@ -10,6 +10,8 @@
     "rules": {
         "no-restricted-syntax": ["error", "YieldExpression"],
 
+        "no-template-curly-in-string": "warn",
+
         "arrow-parens": "error",
         "arrow-spacing": ["error", {
             "before": true,
@@ -20,16 +22,23 @@
         "no-confusing-arrow": "error",
         "no-const-assign": "error",
         "no-dupe-class-members": "error",
+        "no-duplicate-imports": ["error", {
+            "includeExports": true
+        }],
         "no-new-symbol": "error",
         "no-this-before-super": "error",
+        "no-useless-computed-key": "error",
         "no-useless-constructor": "error",
+        "no-useless-rename": "error",
         "no-var": "error",
         "object-shorthand": ["error", "always"],
         "prefer-arrow-callback": "error",
         "prefer-const": "error",
         "prefer-rest-params": "error",
         "prefer-spread": "error",
-        "prefer-template": "warn",
+        "prefer-template": "error",
+        "rest-spread-spacing": ["error", "never"],
+        "symbol-description": "error",
         "template-curly-spacing": ["error", "never"]
     }
 }
