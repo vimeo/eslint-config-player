@@ -50,7 +50,7 @@
             "setWithoutGet": true
         }],
         "array-callback-return": "warn",
-        "complexity": ["warn", 12],
+        "complexity": ["warn", 20],
         "consistent-return": "error",
         "curly": ["error", "all"],
         "dot-notation": ["error", {
